@@ -3,7 +3,7 @@ My name is Brian Krause, and am excited to the start of another semester at Mid-
 On the personal side, I live in Wisconsin Rapids, and have a wife of 15 years and two boys, so when it comes to interests and hobbies, they take up quite a bit of my free time. Having said that, I do enjoy shooting sports (trap, skeet, and sporting clays) as well as 3D printing (I own five different machines). As far as talents, I like to tinker - take things apart and put them back together again, which makes me a pretty good troubleshooter. I dislike talking about myself, so bragging is not really my style but I will include a picture of myself taking first place at a trap shoot fundraising event I participated in last spring.
 
 <div align="center">
-  <img src="./images/Instructor_Photo.jpg" alt="Brian, the Instructor" width="250"/>
+  <img src="https://github.com/NetPandIT2/Education/blob/main/images/Instructor_Photo.jpg" alt="Brian, the Instructor" width="250"/>
 </div>
 
 
