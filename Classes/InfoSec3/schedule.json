@@ -1,9 +1,3 @@
-# Auto-Populating Course Schedule Solution
-#
-#This solution creates a simple system that only requires you to set the first week's start date and due date, and the rest will automatically populate by adding 7 days to each previous row.
-#
-## 1. Simplified Data File (schedule.json)
-
 {
   "courseInfo": {
     "name": "Information Security 3",
