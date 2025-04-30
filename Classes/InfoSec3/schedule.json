@@ -1,7 +1,4 @@
 {
-  "_comment": "Update these three dates each semester under the schedulke opject to auto-generate the schedule. You can also adjust courseInfo as well."
-}
-{
   "courseInfo": {
     "name": "Information Security 3",
     "term": "Spring 2026",
