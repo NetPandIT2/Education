@@ -7,7 +7,8 @@
   },
   "schedule": {
     "firstWeekStartDate": "1/19/2025",
-    "firstWeekDueDate": "1/27/2025"
+    "firstWeekDueDate": "1/27/2025",
+    "lastDueDate": "5/12/2025"
   },
   "weeks": [
     {
@@ -111,7 +112,8 @@
       "weekNum": 16,
       "unit": "",
       "content": "Final Exam Interviews / Presentation: Investigation Race",
-      "requiresInPerson": true
+      "requiresInPerson": true,
+      "isLastWeek": true
     }
   ]
 }
