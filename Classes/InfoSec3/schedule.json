@@ -101,7 +101,7 @@
       "content": "Incident Response",
       "requiresInPerson": false
     },
-	{
+    {
       "weekNum": 14,
       "unit": "Unit 13",
       "content": "Microsegmentation and Zero-Trust",
@@ -118,6 +118,6 @@
       "unit": "",
       "content": "Final Exam Interviews / Presentation: Investigation Race",
       "requiresInPerson": true
-    },
+    }
   ]
 }
