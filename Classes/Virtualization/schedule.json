@@ -1,0 +1,120 @@
+
+{
+  "courseInfo": {
+    "name": "Information Security 3",
+    "term": "Spring 2026",
+    "location": "Stevens Point Campus - Rm 323",
+    "meetingTime": "Tuesday, 10:00 - 11:50"
+  },
+  "schedule": {
+    "firstWeekStartDate": "1/19/2026",
+    "firstWeekDueDate": "1/25/2026",
+    "lastDueDate": "5/14/2026"
+  },
+  "weeks": [
+    {
+      "weekNum": 1,
+      "unit": "Unit 1",
+      "content": "Introduction to Incident Detection and Response",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 2,
+      "unit": "Unit 2",
+      "content": "Asset Management",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 3,
+      "unit": "Unit 3",
+      "content": "Vulnerability Management and Risk Assessment",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 4,
+      "unit": "Unit 4",
+      "content": "Digital Forensics",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 5,
+      "unit": "Unit 5",
+      "content": "SIEM and Log Ingestion Essentials",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 6,
+      "unit": "Unit 6",
+      "content": "Analyze Log Entries: Techniques and Best Practices",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 7,
+      "unit": "Unit 7",
+      "content": "Adversary Attacks and Detection",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 8,
+      "unit": "",
+      "content": "MidTerm Week",
+      "requiresInPerson": true
+    },
+    {
+      "weekNum": null,
+      "unit": null,
+      "content": "Spring Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
+      "weekNum": 9,
+      "unit": "Unit 8",
+      "content": "SOAR and Remediation",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 10,
+      "unit": "Unit 9",
+      "content": "Packet Capture Analysis",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 11,
+      "unit": "Unit 10",
+      "content": "Threat Hunting",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 12,
+      "unit": "Unit 11",
+      "content": "Threat Intelligence",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 13,
+      "unit": "Unit 12",
+      "content": "Incident Response",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 14,
+      "unit": "Unit 13",
+      "content": "Microsegmentation and Zero-Trust",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 15,
+      "unit": "Unit 14",
+      "content": "SOC Analyst Investigation Race",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 16,
+      "unit": "",
+      "content": "Final Exam Interviews / Presentation: Investigation Race",
+      "requiresInPerson": true,
+      "isLastWeek": true
+    }
+  ]
+}
