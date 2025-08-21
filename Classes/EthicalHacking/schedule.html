@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Course Schedule</title>
+    <style>
+        /* Custom styling */
+        :root {
+            --maroon: #771833;
+            --maroon-light: #9f1239;
+            --maroon-extra-light: #fdf2f4;
+            --black: #000000;
+            --white: #ffffff;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: var(--black);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--maroon);
+            color: var(--white);
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+        }
+        
+        header p {
+            font-size: 1.5rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .schedule-container {
+            background-color: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: var(--maroon);
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--maroon-extra-light);
+            padding-bottom: 10px;
+        }
+        
+        .class-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+        
+        .info-item {
+            flex-basis: 48%;
+            margin-bottom: 10px;
+        }
+        
+        .info-item strong {
+            color: var(--maroon);
+        }
+        
+        @media (max-width: 768px) {
+            .info-item {
+                flex-basis: 100%;
+            }
+        }
+        
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .schedule-table th {
+            background-color: var(--maroon);
+            color: var(--white);
+            padding: 15px;
+            text-align: left;
+        }
+        
+        .schedule-table td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .schedule-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .schedule-table tr:hover {
+            background-color: var(--maroon-extra-light);
+        }
+        
+        .exam-row {
+            font-weight: bold;
+        }
+        
+        .in-person {
+            color: var(--maroon);
+            font-style: italic;
+        }
+        
+        .break-row {
+            background-color: #f2f2f2;
+            font-style: italic;
+        }
+        
+        .note {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: var(--maroon-extra-light);
+            border-radius: 5px;
+            border-left: 4px solid var(--maroon);
+        }
+        
+        .error-container {
+            text-align: center;
+            padding: 40px;
+            background-color: var(--maroon-extra-light);
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+        
+        .error-container h2 {
+            color: var(--maroon);
+        }
+        
+        .loading-spinner {
+            text-align: center;
+            padding: 40px;
+        }
+        
+        .loading-spinner::after {
+            content: "";
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid var(--maroon);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        footer {
+            background-color: var(--maroon);
+            color: var(--white);
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="main-container">
+        <div class="loading-spinner" id="loading-spinner"></div>
+    </div>
+
+    <script>
+        // Function to parse date string (M/D/YYYY format)
+        function parseDate(dateStr) {
+            const parts = dateStr.split('/');
+            return new Date(parseInt(parts[2]), parseInt(parts[0]) - 1, parseInt(parts[1]));
+        }
+
+        // Function to format date as M/D/YYYY
+        function formatDate(date) {
+            return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
+        }
+
+        // Function to add days to a date
+        function addDays(date, days) {
+            const result = new Date(date);
+            result.setDate(result.getDate() + days);
+            return result;
+        }
+
+        // Function to generate HTML content
+        function generateScheduleHTML(data) {
+            const container = document.getElementById('main-container');
+            
+            // Create header
+            const header = document.createElement('header');
+            header.innerHTML = `
+                <h1>${data.courseInfo.name}</h1>
+                <p>Course Schedule - ${data.courseInfo.term}</p>
+            `;
+            
+            // Create schedule container
+            const scheduleContainer = document.createElement('div');
+            scheduleContainer.className = 'schedule-container';
+            scheduleContainer.innerHTML = `
+                <h2>Class Schedule</h2>
+                
+                <div class="class-info">
+                    <div class="info-item">
+                        <p><strong>Course:</strong> ${data.courseInfo.name}</p>
+                    </div>
+                    <div class="info-item">
+                        <p><strong>Term:</strong> ${data.courseInfo.term}</p>
+                    </div>
+                    <div class="info-item">
+                        <p><strong>Location:</strong> ${data.courseInfo.location}</p>
+                    </div>
+                    <div class="info-item">
+                        <p><strong>Meeting Time:</strong> ${data.courseInfo.meetingTime}</p>
+                    </div>
+                </div>
+            `;
+            
+            // Create schedule table
+            const table = document.createElement('table');
+            table.className = 'schedule-table';
+            table.innerHTML = `
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Unit</th>
+                        <th>Content</th>
+                        <th>Week of</th>
+                        <th>Content Due</th>
+                    </tr>
+                </thead>
+                <tbody id="schedule-tbody"></tbody>
+            `;
+            
+            scheduleContainer.appendChild(table);
+            
+            // Add note
+            const note = document.createElement('div');
+            note.className = 'note';
+            note.innerHTML = `
+                <p><strong>Note:</strong> All assignments are due by midnight of the due date. In-person attendance is required for the Midterm Exam, Final Exam Interview, and Final Presentation.</p>
+            `;
+            
+            scheduleContainer.appendChild(note);
+            
+            // Create footer
+            const footer = document.createElement('footer');
+            const year = new Date().getFullYear();
+            footer.innerHTML = `
+                <p>&copy; ${year} Mid-State Technical College. All Rights Reserved.</p>
+            `;
+            
+            // Clear loading spinner and add elements to container
+            container.innerHTML = '';
+            container.appendChild(header);
+            container.appendChild(scheduleContainer);
+            container.appendChild(footer);
+            
+            // Set page title
+            document.getElementById('page-title').textContent = `${data.courseInfo.name} - Course Schedule`;
+            
+            // Populate schedule with auto-calculated dates
+            const scheduleBody = document.getElementById('schedule-tbody');
+            
+            // Parse initial dates
+            let currentStartDate = parseDate(data.schedule.firstWeekStartDate);
+            let currentDueDate = parseDate(data.schedule.firstWeekDueDate);
+            
+            // Parse last due date
+            let lastDueDate = null;
+            if (data.schedule.lastDueDate) {
+                lastDueDate = parseDate(data.schedule.lastDueDate);
+            }
+            
+            data.weeks.forEach((week, index) => {
+                const row = document.createElement('tr');
+                
+                // Add class for special rows
+                if (week.isBreak) {
+                    row.classList.add('break-row');
+                } else if (week.requiresInPerson) {
+                    row.classList.add('exam-row');
+                }
+                
+                // Format dates based on week type
+                let weekStartFormatted = week.isBreak ? formatDate(currentStartDate) : formatDate(currentStartDate);
+                let dueDateFormatted = '';
+                
+                // For the last week, use the specified lastDueDate if available
+                if (week.isLastWeek && lastDueDate) {
+                    dueDateFormatted = formatDate(lastDueDate);
+                } else if (!week.isBreak) {
+                    dueDateFormatted = formatDate(currentDueDate);
+                }
+                
+                // Create row content
+                row.innerHTML = `
+                    <td>${week.weekNum || ''}</td>
+                    <td>${week.unit || ''}</td>
+                    <td>${week.content}${week.requiresInPerson ? ' - <span class="in-person">Please be in person</span>' : ''}</td>
+                    <td>${weekStartFormatted}</td>
+                    <td>${dueDateFormatted}</td>
+                `;
+                
+                scheduleBody.appendChild(row);
+                
+                // Calculate dates for next week (add 7 days)
+                // If this is a break week marked with skipWeek, we still increment the date
+                currentStartDate = addDays(currentStartDate, 7);
+                currentDueDate = addDays(currentDueDate, 7);
+            });
+        }
+
+        // Function to handle errors
+        function showError(message) {
+            const container = document.getElementById('main-container');
+            container.innerHTML = `
+                <div class="error-container">
+                    <h2>Error Loading Schedule</h2>
+                    <p>${message}</p>
+                    <p>Please try again later or contact the administrator.</p>
+                </div>
+            `;
+        }
+
+        // Load schedule data using relative path (same origin)
+        document.addEventListener('DOMContentLoaded', function() {
+            // Use relative path to schedule.json in the same repository
+            const jsonUrl = './schedule.json';
+            
+            fetch(jsonUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    generateScheduleHTML(data);
+                })
+                .catch(error => {
+                    console.error('Error loading schedule data:', error);
+                    showError('Could not load the schedule data from the server.');
+                });
+        });
+    </script>
+</body>
+</html>
