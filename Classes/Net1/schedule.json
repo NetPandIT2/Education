@@ -99,20 +99,20 @@
     {
       "weekNum": 14,
       "unit": "Unit 13",
-      "content": "Microsegmentation and Zero-Trust",
+      "content": "Cisco Module 17 Building a Small Network",
       "requiresInPerson": false
     },
     {
       "weekNum": 15,
       "unit": "Unit 14",
-      "content": "SOC Analyst Investigation Race",
+      "content": "Review and Final Assessment",
       "requiresInPerson": false
     },
     {
       "weekNum": 16,
       "unit": "",
-      "content": "Final Exam Interviews / Presentation: Investigation Race",
-      "requiresInPerson": true,
+      "content": "Final Exam",
+      "requiresInPerson": false,
       "isLastWeek": true
     }
   ]
