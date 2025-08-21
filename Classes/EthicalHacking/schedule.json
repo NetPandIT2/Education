@@ -14,104 +14,104 @@
     {
       "weekNum": 1,
       "unit": "Unit 1",
-      "content": "Introduction to Incident Detection and Response",
+      "content": "Introduction, Ethics, and Purpose",
       "requiresInPerson": false
     },
     {
       "weekNum": 2,
       "unit": "Unit 2",
-      "content": "Asset Management",
+      "content": "Reconnaissance",
       "requiresInPerson": false
     },
     {
       "weekNum": 3,
       "unit": "Unit 3",
-      "content": "Vulnerability Management and Risk Assessment",
+      "content": "Scanning",
       "requiresInPerson": false
     },
     {
       "weekNum": 4,
       "unit": "Unit 4",
-      "content": "Digital Forensics",
+      "content": "Scanning",
       "requiresInPerson": false
     },
     {
       "weekNum": 5,
       "unit": "Unit 5",
-      "content": "SIEM and Log Ingestion Essentials",
+      "content": "Scanning",
       "requiresInPerson": false
     },
     {
       "weekNum": 6,
       "unit": "Unit 6",
-      "content": "Analyze Log Entries: Techniques and Best Practices",
+      "content": "Social Engineering",
       "requiresInPerson": false
     },
     {
       "weekNum": 7,
       "unit": "Unit 7",
-      "content": "Adversary Attacks and Detection",
+      "content": "Social Engineering",
       "requiresInPerson": false
     },
     {
       "weekNum": 8,
-      "unit": "",
-      "content": "MidTerm Week",
-      "requiresInPerson": true
-    },
-    {
-      "weekNum": null,
-      "unit": null,
-      "content": "Spring Break",
-      "isBreak": true,
-      "skipWeek": true
+      "unit": "Unit 8",
+      "content": "Exploits",
+      "requiresInPerson": false
     },
     {
       "weekNum": 9,
-      "unit": "Unit 8",
-      "content": "SOAR and Remediation",
+      "unit": "Unit 9",
+      "content": "Exploits",
       "requiresInPerson": false
     },
     {
       "weekNum": 10,
-      "unit": "Unit 9",
-      "content": "Packet Capture Analysis",
+      "unit": "Unit 10",
+      "content": "Persistence",
       "requiresInPerson": false
     },
     {
       "weekNum": 11,
-      "unit": "Unit 10",
-      "content": "Threat Hunting",
+      "unit": "Unit 11",
+      "content": "Privilege Escalation",
       "requiresInPerson": false
     },
     {
       "weekNum": 12,
-      "unit": "Unit 11",
-      "content": "Threat Intelligence",
+      "unit": "Unit 12",
+      "content": "Lateral Movement",
       "requiresInPerson": false
     },
     {
       "weekNum": 13,
-      "unit": "Unit 12",
-      "content": "Incident Response",
+      "unit": "Unit 13",
+      "content": "WiFi, Bluetooth, and mobile devices",
       "requiresInPerson": false
     },
     {
+      "weekNum": null,
+      "unit": null,
+      "content": "Fall Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
       "weekNum": 14,
-      "unit": "Unit 13",
-      "content": "Microsegmentation and Zero-Trust",
+      "unit": "Unit 14",
+      "content": "Cryptography",
       "requiresInPerson": false
     },
     {
       "weekNum": 15,
-      "unit": "Unit 14",
-      "content": "SOC Analyst Investigation Race",
+      "unit": "Unit 15",
+      "content": "Red vs. Blue",
       "requiresInPerson": false
     },
     {
       "weekNum": 16,
       "unit": "",
-      "content": "Final Exam Interviews / Presentation: Investigation Race",
+      "content": "Final Competency and Exam",
       "requiresInPerson": true,
       "isLastWeek": true
     }
