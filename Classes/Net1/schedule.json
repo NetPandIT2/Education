@@ -57,14 +57,7 @@
       "weekNum": 8,
       "unit": "Unit 8",
       "content": "Cisco Module 12 IPv6 Addresssing",
-      "requiresInPerson": true
-    },
-    {
-      "weekNum": null,
-      "unit": null,
-      "content": "Spring Break",
-      "isBreak": true,
-      "skipWeek": true
+      "requiresInPerson": false
     },
     {
       "weekNum": 9,
@@ -99,7 +92,7 @@
     {
       "weekNum": null,
       "unit": null,
-      "content": "Spring Break",
+      "content": "Fall Break",
       "isBreak": true,
       "skipWeek": true
     },
