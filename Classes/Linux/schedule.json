@@ -1,0 +1,119 @@
+{
+  "courseInfo": {
+    "name": "Linux",
+    "term": "Fall 2025",
+    "location": "Wisconsin Rapids Campus - Rm T111",
+    "meetingTime": "Wednesday, 13:00 - 14:50"
+  },
+  "schedule": {
+    "firstWeekStartDate": "8/27/2025",
+    "firstWeekDueDate": "9/2/2025",
+    "lastDueDate": "12/16/2025"
+  },
+  "weeks": [
+    {
+      "weekNum": 1,
+      "unit": "Unit 1",
+      "content": "Introduction to Linux",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 2,
+      "unit": "Unit 2",
+      "content": "Administering Users and Groups",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 3,
+      "unit": "Unit 3",
+      "content": "Configuring Permissions",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 4,
+      "unit": "Unit 4",
+      "content": "Implementing File Management",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 5,
+      "unit": "Unit 5",
+      "content": "Authoring Text Files",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 6,
+      "unit": "Unit 6",
+      "content": "Managing Software",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 7,
+      "unit": "Unit 7",
+      "content": "Administering Storage",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 8,
+      "unit": "Unit 8",
+      "content": "Managing Devices, Processes, Memory, and the Kernel",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 9,
+      "unit": "Unit 9",
+      "content": "Managing Services",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 10,
+      "unit": "Unit 10",
+      "content": "Configuring Network Settings",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 11,
+      "unit": "Unit 11",
+      "content": "Configuring Network Security and Managing Linux Security",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 12,
+      "unit": "Unit 12",
+      "content": "Implementing Simple Scripts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 13,
+      "unit": "Unit 13",
+      "content": "Using Infrastructure as Code",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": null,
+      "unit": null,
+      "content": "Fall Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
+      "weekNum": 14,
+      "unit": "Unit 14",
+      "content": "Managing Containers in Linux",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 15,
+      "unit": "Unit 15",
+      "content": "Installing Linux",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 16,
+      "unit": "",
+      "content": "Final Exam",
+      "requiresInPerson": false,
+      "isLastWeek": true
+    }
+  ]
+}
