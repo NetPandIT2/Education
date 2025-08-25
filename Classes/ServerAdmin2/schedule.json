@@ -1,0 +1,114 @@
+
+{
+  "courseInfo": {
+    "name": "Server Administration Intermediate",
+    "term": "Fall 2025",
+    "location": "Stevens Point Campus - Rm 323",
+    "meetingTime": "Thursday, 15:00 - 16:50"
+  },
+  "schedule": {
+    "firstWeekStartDate": "8/28/2025",
+    "firstWeekDueDate": "9/3/2025",
+    "lastDueDate": "12/11/2025"
+  },
+  "weeks": [
+    {
+      "weekNum": 1,
+      "unit": "Unit 1",
+      "content": "Understanding Cloud Architecture Concepts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 2,
+      "unit": "Unit 2",
+      "content": "Planning Cloud Services",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 3,
+      "unit": "Unit 3",
+      "content": "Provisioning and Migrating Cloud Resources",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 4,
+      "unit": "Unit 4",
+      "content": "Comparing Cloud Storage",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 5,
+      "unit": "Unit 5",
+      "content": "Troubleshooting Deployment Issues and Cost",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 6,
+      "unit": "Unit 6",
+      "content": "Using Virtualization and Databases",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 7,
+      "unit": "Unit 7",
+      "content": "Comprehending Cloud Networking",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 8,
+      "unit": "",
+      "content": "Midterm",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 9,
+      "unit": "Unit 8",
+      "content": "Automating Cloud Resources",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 10,
+      "unit": "Unit 9",
+      "content": "Implementing Security Management",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 11,
+      "unit": "Unit 10",
+      "content": "Comprehending Security Compliance and Troubleshooting",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 12,
+      "unit": "Unit 11",
+      "content": "Implementing Performance and Monitoring",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 13,
+      "unit": "Unit 12",
+      "content": "Managing Disaster Recovery and Business Continuity",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": null,
+      "unit": null,
+      "content": "Fall Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
+      "weekNum": 14,
+      "unit": "Unit 14",
+      "content": "Free Week",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 15,
+      "unit": "",
+      "content": "Final Exam",
+      "requiresInPerson": false
+      "isLastWeek": true
+    }
+  ]
+}
