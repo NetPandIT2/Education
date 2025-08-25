@@ -3,117 +3,117 @@
   "courseInfo": {
     "name": "Virtualization",
     "term": "Fall 2025",
-    "location": "Wisconsin Rapids Campus - Rm T111",
-    "meetingTime": "Tuesday, 10:00 - 11:50"
+    "location": "Stevens Point Campus - Rm 323",
+    "meetingTime": "Thursday, 13:00 - 14:50"
   },
   "schedule": {
-    "firstWeekStartDate": "1/19/2026",
-    "firstWeekDueDate": "1/25/2026",
-    "lastDueDate": "5/14/2026"
+    "firstWeekStartDate": "8/28/2025",
+    "firstWeekDueDate": "9/3/2025",
+    "lastDueDate": "12/11/2025"
   },
   "weeks": [
     {
       "weekNum": 1,
       "unit": "Unit 1",
-      "content": "Introduction to Incident Detection and Response",
+      "content": "Introduction to Virtualization and Lab Environment",
       "requiresInPerson": false
     },
     {
       "weekNum": 2,
       "unit": "Unit 2",
-      "content": "Asset Management",
+      "content": "Hypervisor Installation and Architecture",
       "requiresInPerson": false
     },
     {
       "weekNum": 3,
       "unit": "Unit 3",
-      "content": "Vulnerability Management and Risk Assessment",
+      "content": "Basic Configuration and User Management",
       "requiresInPerson": false
     },
     {
       "weekNum": 4,
       "unit": "Unit 4",
-      "content": "Digital Forensics",
+      "content": "Virtual Machione and Container Deployment",
       "requiresInPerson": false
     },
     {
       "weekNum": 5,
       "unit": "Unit 5",
-      "content": "SIEM and Log Ingestion Essentials",
+      "content": "System Modification and Maintenance",
       "requiresInPerson": false
     },
     {
       "weekNum": 6,
       "unit": "Unit 6",
-      "content": "Analyze Log Entries: Techniques and Best Practices",
+      "content": "Efficient Deployment Strategies",
       "requiresInPerson": false
     },
     {
       "weekNum": 7,
       "unit": "Unit 7",
-      "content": "Adversary Attacks and Detection",
+      "content": "Local Storage Systems",
       "requiresInPerson": false
     },
     {
       "weekNum": 8,
-      "unit": "",
-      "content": "MidTerm Week",
+      "unit": "Unit 8",
+      "content": "Virtual Networking",
       "requiresInPerson": true
     },
     {
-      "weekNum": null,
-      "unit": null,
-      "content": "Spring Break",
-      "isBreak": true,
-      "skipWeek": true
-    },
-    {
       "weekNum": 9,
-      "unit": "Unit 8",
-      "content": "SOAR and Remediation",
+      "unit": "Unit 9",
+      "content": "Network Storage and Backup Infrastructure",
       "requiresInPerson": false
     },
     {
       "weekNum": 10,
-      "unit": "Unit 9",
-      "content": "Packet Capture Analysis",
+      "unit": "Unit 10",
+      "content": "Backup Stragegies and Data Protection",
       "requiresInPerson": false
     },
     {
       "weekNum": 11,
-      "unit": "Unit 10",
-      "content": "Threat Hunting",
+      "unit": "Unit 11",
+      "content": "Command Line and API Management",
       "requiresInPerson": false
     },
     {
       "weekNum": 12,
-      "unit": "Unit 11",
-      "content": "Threat Intelligence",
+      "unit": "Unit 12",
+      "content": "High Availability and Enterprise Features",
       "requiresInPerson": false
     },
     {
       "weekNum": 13,
-      "unit": "Unit 12",
-      "content": "Incident Response",
+      "unit": "Unit 13",
+      "content": "Hyper-V Fundamentals and Achitecture",
       "requiresInPerson": false
     },
     {
+      "weekNum": null,
+      "unit": null,
+      "content": "Fall Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
       "weekNum": 14,
-      "unit": "Unit 13",
-      "content": "Microsegmentation and Zero-Trust",
+      "unit": "Unit 14",
+      "content": "Hyper-V Virtual Machine Management",
       "requiresInPerson": false
     },
     {
       "weekNum": 15,
-      "unit": "Unit 14",
-      "content": "SOC Analyst Investigation Race",
+      "unit": "Unit 15",
+      "content": "Hyper-V Storage and Networking",
       "requiresInPerson": false
     },
     {
       "weekNum": 16,
-      "unit": "",
-      "content": "Final Exam Interviews / Presentation: Investigation Race",
-      "requiresInPerson": true,
+      "unit": "Unit 16",
+      "content": "Enterprise Hyper-V and Platform Comparison",
+      "requiresInPerson": false,
       "isLastWeek": true
     }
   ]
