@@ -33,7 +33,7 @@
     {
       "weekNum": 4,
       "unit": "Unit 4",
-      "content": "Virtual Machione and Container Deployment",
+      "content": "Virtual Machine and Container Deployment",
       "requiresInPerson": false
     },
     {
@@ -58,7 +58,7 @@
       "weekNum": 8,
       "unit": "Unit 8",
       "content": "Virtual Networking",
-      "requiresInPerson": true
+      "requiresInPerson": false
     },
     {
       "weekNum": 9,
