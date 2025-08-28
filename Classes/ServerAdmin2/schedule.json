@@ -107,7 +107,7 @@
       "weekNum": 15,
       "unit": "",
       "content": "Final Exam",
-      "requiresInPerson": false
+      "requiresInPerson": false,
       "isLastWeek": true
     }
   ]
