@@ -58,7 +58,8 @@
       "unit": "Unit 7.1",
       "content": "Midterm",
       "requiresInPerson": true
-    },{
+    },
+    {
       "weekNum": 9,
       "unit": "Unit 8",
       "content": "Decryption and Certs",
@@ -91,20 +92,20 @@
     {
       "weekNum": null,
       "unit": null,
-      "content": "Spring Break",
+      "content": "Fall Break",
       "isBreak": true,
       "skipWeek": true
     },
     {
       "weekNum": 14,
       "unit": "Unit 13",
-      "content": "Logginh and Monitoring",
+      "content": "Logging and Monitoring",
       "requiresInPerson": false
     },
     {
       "weekNum": 15,
       "unit": "Unit 14",
-      "content": "Interview Final",
+      "content": "Final - Interview",
       "requiresInPerson": false
     },
     {
@@ -112,6 +113,6 @@
       "unit": "Unit 14.1",
       "content": "Finals Week",
       "requiresInPerson": false
-    },
-    ]
+    }
+  ]
 }
