@@ -6,9 +6,9 @@
     "meetingTime": "Tuesday, 10:00 - 11:50"
   },
   "schedule": {
-    "firstWeekStartDate": "1/19/2026",
-    "firstWeekDueDate": "1/25/2026",
-    "lastDueDate": "5/14/2026"
+    "firstWeekStartDate": "1/26/2026",
+    "firstWeekDueDate": "2/2/2026",
+    "lastDueDate": "5/19/2026"
   },
   "weeks": [
     {
@@ -117,3 +117,4 @@
     }
   ]
 }
+
