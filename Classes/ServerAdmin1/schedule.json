@@ -1,0 +1,120 @@
+
+{
+  "courseInfo": {
+    "name": "Server Administration Beginning",
+    "term": "Spring 2026",
+    "location": "Wisconsin Rapids Campus - Rm T111",
+    "meetingTime": "Monday, 13:00 - 15:50"
+  },
+  "schedule": {
+    "firstWeekStartDate": "1/26/2026",
+    "firstWeekDueDate": "2/1/2026",
+    "lastDueDate": "5/18/2026"
+  },
+  "weeks": [
+    {
+      "weekNum": 1,
+      "unit": "Unit 1",
+      "content": "Understanding Server Administration Concepts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 2,
+      "unit": "Unit 2",
+      "content": "Understanding Virtualization and Cloud Computing",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 3,
+      "unit": "Unit 3",
+      "content": "Understanding Physical and Network Security Concepts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 4,
+      "unit": "Unit 4",
+      "content": "Managing Physical Assets",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 5,
+      "unit": "Unit 5",
+      "content": "Managing Server Hardware",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 6,
+      "unit": "Unit 6",
+      "content": "Configuring Storage Management",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 7,
+      "unit": "Unit 7",
+      "content": "Installing and Configutring an OS - pt 1",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 8,
+      "unit": "",
+      "content": "Midterm",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": null,
+      "unit": null,
+      "content": "Fall Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
+      "weekNum": 9,
+      "unit": "Unit 7",
+      "content": "Installing and Configutring an OS - pt 2",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 10,
+      "unit": "Unit 8",
+      "content": "Troubleshooting OS, Application, and Network Configurations",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 11,
+      "unit": "Unit 9",
+      "content": "Managing Post-Installation Administration Tasks - pt 1",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 12,
+     "unit": "Unit 9",
+      "content": "Managing Post-Installation Administration Tasks - pt 2",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 13,
+      "unit": "Unit 10",
+      "content": "Managing Data Security",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 14,
+      "unit": "Unit 11",
+      "content": "Managing Service and Data Availability",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 15,
+      "unit": "Unit 12",
+      "content": "Decommissioning Servers",
+      "requiresInPerson": false,
+    },
+    {
+      "weekNum": 16,
+      "unit": " ",
+      "content": "Final Exam",
+      "requiresInPerson": false,
+      "isLastWeek": true
+    }
+  ]
+}
