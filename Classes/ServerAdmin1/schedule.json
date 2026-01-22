@@ -50,26 +50,26 @@
     {
       "weekNum": 7,
       "unit": "Unit 7",
-      "content": "Installing and Configutring an OS - pt 1",
+      "content": "Installing and Configuring an OS - pt 1",
       "requiresInPerson": false
     },
     {
       "weekNum": 8,
-      "unit": "",
+      "unit": null,
       "content": "Midterm",
       "requiresInPerson": false
     },
     {
       "weekNum": null,
       "unit": null,
-      "content": "Fall Break",
+      "content": "Spring Break",
       "isBreak": true,
       "skipWeek": true
     },
     {
       "weekNum": 9,
       "unit": "Unit 7",
-      "content": "Installing and Configutring an OS - pt 2",
+      "content": "Installing and Configuring an OS - pt 2",
       "requiresInPerson": false
     },
     {
@@ -106,13 +106,13 @@
       "weekNum": 15,
       "unit": "Unit 12",
       "content": "Decommissioning Servers",
-      "requiresInPerson": false,
+      "requiresInPerson": false
     },
     {
       "weekNum": 16,
-      "unit": " ",
+      "unit": null,
       "content": "Final Exam",
-      "requiresInPerson": false,
+      "requiresInPerson": false
       "isLastWeek": true
     }
   ]
