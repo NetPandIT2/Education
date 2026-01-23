@@ -57,7 +57,7 @@
       "weekNum": 8,
       "unit": "Unit 8",
       "content": "Scenario 3 - Investigation",
-      "requiresInPerson": true
+      "requiresInPerson": false
     },
     {
       "weekNum": null,
