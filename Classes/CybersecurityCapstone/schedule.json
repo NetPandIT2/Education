@@ -1,0 +1,119 @@
+{
+  "courseInfo": {
+    "name": "IT Cybersecurity Capstone",
+    "term": "Spring 2026",
+    "location": "Stevens Point Campus - Rm 323",
+    "meetingTime": "Tuesday, 13:00 - 15:50"
+  },
+  "schedule": {
+    "firstWeekStartDate": "1/26/2026",
+    "firstWeekDueDate": "2/2/2026",
+    "lastDueDate": "5/19/2026"
+  },
+  "weeks": [
+    {
+      "weekNum": 1,
+      "unit": "Unit 1",
+      "content": "Scenario 1 - Investigation",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 2,
+      "unit": "Unit 2",
+      "content": "Scenario 1 - Reporting",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 3,
+      "unit": "Unit 3",
+      "content": "Software Review",
+      "requiresInPerson": true
+    },
+    {
+      "weekNum": 4,
+      "unit": "Unit 4",
+      "content": "Scenario 1 - Presentation",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 5,
+      "unit": "Unit 5",
+      "content": "Breach / Malware Research pt 1",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 6,
+      "unit": "Unit 6",
+      "content": "Breach / Malware Research pt 2",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 7,
+      "unit": "Unit 7",
+      "content": "Breach / Malware Research pt 3",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 8,
+      "unit": "Unit 8",
+      "content": "Scenario 3 - Investigation",
+      "requiresInPerson": true
+    },
+    {
+      "weekNum": null,
+      "unit": null,
+      "content": "Spring Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
+      "weekNum": 9,
+      "unit": "Unit 9",
+      "content": "Scenario 3 - Reporting",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 10,
+      "unit": "Unit 10",
+      "content": "Scenario 3 - Presentation",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 11,
+      "unit": "Unit 11",
+      "content": "Pen Testing Begins",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 12,
+      "unit": "Unit 12",
+      "content": "Pen Testing week 2",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 13,
+      "unit": "Unit 13",
+      "content": "Pen Testing week 3",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 14,
+      "unit": "Unit 14",
+      "content": "Pen Testing Wrap-up / Research Project Topic",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 15,
+      "unit": "Unit 15",
+      "content": "Research Project",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 16,
+      "unit": "",
+      "content": "Research Project / Presentations",
+      "requiresInPerson": true,
+      "isLastWeek": true
+    }
+  ]
+}
