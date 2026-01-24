@@ -1,0 +1,114 @@
+{
+  "courseInfo": {
+    "name": "Advanced Networking Projects",
+    "term": "Spring 2026",
+    "location": "Stevens Point Campus - Rm 323",
+    "meetingTime": "Thursday, 15:00 - 16:50"
+  },
+  "schedule": {
+    "firstWeekStartDate": "1/29/2026",
+    "firstWeekDueDate": "2/4/2026",
+    "lastDueDate": "5/14/2026"
+  },
+  "weeks": [
+    {
+      "weekNum": 1,
+      "unit": "Unit 1",
+      "content": "The Proposal pt 1",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 2,
+      "unit": "Unit 1",
+      "content": "The Proposal pt 2",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 3,
+      "unit": "Unit 2",
+      "content": "Rivised Proposal and Project Timeline",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 4,
+      "unit": "Unit 3",
+      "content": "Initial Design pt 1",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 5,
+      "unit": "Unit 3",
+      "content": "Initial Design pt 2",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 6,
+      "unit": "Unit 4",
+      "content": "Milestone: Switching",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 7,
+      "unit": "Unit 5",
+      "content": "Milestone: Routing",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 8,
+      "unit": "Unit 6",
+      "content": "Milestone: WAN",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": null,
+      "unit": null,
+      "content": "Spring Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
+      "weekNum": 9,
+      "unit": "Unit 7",
+      "content": "Milestone: Site-to-Site Connectivity",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 10,
+      "unit": "Unit 8",
+      "content": "Milestone: Virtual Host",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 11,
+      "unit": "Unit 9",
+      "content": "Milestone: Windows Server",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 12,
+      "unit": "Unit 10",
+      "content": "Linux Server",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 13,
+      "unit": "Unit 11",
+      "content": "Milestone: Voice",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 14,
+      "unit": "Unit 12",
+      "content": "Milestone: Complete Project Functionality",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 15,
+      "unit": "Unit 13",
+      "content": "Finalize Network Design and Presentation",
+      "requiresInPerson": true,
+      "isLastWeek": true
+    },
+    
+  ]
+}
