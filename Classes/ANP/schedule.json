@@ -26,7 +26,7 @@
     {
       "weekNum": 3,
       "unit": "Unit 2",
-      "content": "Rivised Proposal and Project Timeline",
+      "content": "Revised Proposal and Project Timeline",
       "requiresInPerson": false
     },
     {
@@ -87,7 +87,7 @@
     {
       "weekNum": 12,
       "unit": "Unit 10",
-      "content": "Linux Server",
+      "content": "Milestone: Linux Server",
       "requiresInPerson": false
     },
     {
@@ -108,7 +108,7 @@
       "content": "Finalize Network Design and Presentation",
       "requiresInPerson": true,
       "isLastWeek": true
-    },
+    }
     
   ]
 }
