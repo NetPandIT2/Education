@@ -15,7 +15,8 @@
       "weekNum": 1,
       "unit": "Unit 1",
       "content": "The Proposal pt 1",
-      "requiresInPerson": false
+      "requiresInPerson": false,
+      "skipWeek": true
     },
     {
       "weekNum": 2,
@@ -33,7 +34,8 @@
       "weekNum": 4,
       "unit": "Unit 3",
       "content": "Initial Design pt 1",
-      "requiresInPerson": false
+      "requiresInPerson": false,
+      "skipWeek": true
     },
     {
       "weekNum": 5,
