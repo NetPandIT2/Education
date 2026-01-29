@@ -1,0 +1,114 @@
+{
+  "courseInfo": {
+    "name": "Information Security 1",
+    "term": "Spring 2026",
+    "location": "Wisconsin Rapids Campus, Rm T111",
+    "meetingTime": "Thursday, 10:00 - 11:50"
+  },
+  "schedule": {
+    "firstWeekStartDate": "1/29/2026",
+    "firstWeekDueDate": "2/4/2026",
+    "lastDueDate": "5/14/2026"
+  },
+  "weeks": [
+    {
+      "weekNum": 1,
+      "unit": "Unit 1",
+      "content": "Summarize Fundamental Security Concepts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 2,
+      "unit": "Unit 2",
+      "content": "Compare Threat Types",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 3,
+      "unit": "Unit 3",
+      "content": "Explain Cryptographic Solutions",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 4,
+      "unit": "Unit 4",
+      "content": "Implement Identity and Access Management",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 5,
+      "unit": "Unit 5",
+      "content": "Secure Enterprise / Cloud Network Architecture",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 6,
+      "unit": "Unit 6",
+      "content": "Explain Resiliency and Site Security Concepts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 7,
+      "unit": "Unit 7",
+      "content": "Explain Vulnerability Management",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 8,
+      "unit": "Unit 8",
+      "content": "Evaluate Network / Endpoint Security Capabilities",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": null,
+      "unit": null,
+      "content": "Spring Break",
+      "isBreak": true,
+      "skipWeek": true
+    },
+    {
+      "weekNum": 9,
+      "unit": "Unit 9",
+      "content": "Enhance Application Security Capabilities",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 10,
+      "unit": "Unit 10",
+      "content": "Explain Incident Response and Monitoring Concepts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 11,
+      "unit": "Unit 11",
+      "content": "Analyze Indicators of Malicious Activity",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 12,
+      "unit": "Unit 12",
+      "content": "Summarize Security Governance Concepts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 13,
+      "unit": "Unit 13",
+      "content": "Explain Risk Management Processes",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 14,
+      "unit": "Unit 14",
+      "content": "Summarize Data Protection and Compliance Concepts",
+      "requiresInPerson": false
+    },
+    {
+      "weekNum": 15,
+      "unit": null,
+      "content": "Final Exam",
+      "requiresInPerson": true,
+      "isLastWeek": true
+    }
+    
+  ]
+}
