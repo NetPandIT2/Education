@@ -1,14 +1,14 @@
 {
   "courseInfo": {
     "name": "Ethical Hacking",
-    "term": "Fall 2025",
+    "term": "Fall 2026",
     "location": "Stevens Point Campus - Rm 323",
     "meetingTime": "Tuesday, 09:00 - 11:50"
   },
   "schedule": {
-    "firstWeekStartDate": "8/24/2025",
-    "firstWeekDueDate": "8/31/2025",
-    "lastDueDate": "12/16/2025"
+    "firstWeekStartDate": "8/23/2026",
+    "firstWeekDueDate": "8/31/2026",
+    "lastDueDate": "12/15/2026"
   },
   "weeks": [
     {
@@ -26,31 +26,31 @@
     {
       "weekNum": 3,
       "unit": "Unit 3",
-      "content": "Scanning",
+      "content": "Network Scanning",
       "requiresInPerson": false
     },
     {
       "weekNum": 4,
       "unit": "Unit 4",
-      "content": "Scanning",
+      "content": "Application Scanning",
       "requiresInPerson": false
     },
     {
       "weekNum": 5,
       "unit": "Unit 5",
-      "content": "Scanning",
+      "content": "Database Scanning",
       "requiresInPerson": false
     },
     {
       "weekNum": 6,
       "unit": "Unit 6",
-      "content": "Social Engineering",
+      "content": "Social Engineering - Physical",
       "requiresInPerson": false
     },
     {
       "weekNum": 7,
       "unit": "Unit 7",
-      "content": "Social Engineering",
+      "content": "Social Engineering - Digital",
       "requiresInPerson": false
     },
     {
@@ -62,7 +62,7 @@
     {
       "weekNum": 9,
       "unit": "Unit 9",
-      "content": "Exploits",
+      "content": "Midterm Prep",
       "requiresInPerson": false
     },
     {
@@ -86,7 +86,7 @@
     {
       "weekNum": 13,
       "unit": "Unit 13",
-      "content": "WiFi, Bluetooth, and mobile devices",
+      "content": "Cryptography",
       "requiresInPerson": false
     },
     {
@@ -99,19 +99,19 @@
     {
       "weekNum": 14,
       "unit": "Unit 14",
-      "content": "Cryptography",
+      "content": "Wi-Fi, Bluetooth, and Mobile Devices",
       "requiresInPerson": false
     },
     {
       "weekNum": 15,
       "unit": "Unit 15",
-      "content": "Red vs. Blue",
+      "content": "Responsible Disclosure",
       "requiresInPerson": false
     },
     {
       "weekNum": 16,
       "unit": "",
-      "content": "Final Competency and Exam",
+      "content": "Final Interview",
       "requiresInPerson": true,
       "isLastWeek": true
     }
