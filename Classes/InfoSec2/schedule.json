@@ -1,14 +1,14 @@
 {
   "courseInfo": {
     "name": "Information Security 2",
-    "term": "Fall 2025",
+    "term": "Fall 2026",
     "location": "Stevens Point Campus - Rm 323",
     "meetingTime": "Tuesday, 13:00 - 15:50"
   },
   "schedule": {
-    "firstWeekStartDate": "8/24/2025",
-    "firstWeekDueDate": "8/31/2025",
-    "lastDueDate": "12/16/2025"
+    "firstWeekStartDate": "8/23/2026",
+    "firstWeekDueDate": "8/31/2026",
+    "lastDueDate": "12/15/2026"
   },
   "weeks": [
     {
