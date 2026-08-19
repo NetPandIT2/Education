@@ -14,7 +14,7 @@
     {
       "weekNum": 1,
       "unit": "Unit 1",
-      "content": "Firewall Intro",
+      "content": "Firewall Introduction",
       "requiresInPerson": false
     },
     {
@@ -26,67 +26,67 @@
     {
       "weekNum": 3,
       "unit": "Unit 3",
-      "content": "NAT",
+      "content": "Network Address Translation (NAT)",
       "requiresInPerson": false
     },
     {
       "weekNum": 4,
       "unit": "Unit 4",
-      "content": "Application Control",
+      "content": "Managing Firewall Administrator Accounts",
       "requiresInPerson": false
     },
     {
       "weekNum": 5,
       "unit": "Unit 5",
-      "content": "Content ID and DLP",
+      "content": "Configuring Security Zones",
       "requiresInPerson": false
     },
     {
       "weekNum": 6,
       "unit": "Unit 6",
-      "content": "Web Filtering",
+      "content": "Creating and Managing Security Policy Rules",
       "requiresInPerson": false
     },
     {
       "weekNum": 7,
       "unit": "Unit 7",
-      "content": "Review",
+      "content": "Creating and Managing NAT Policy Rules",
       "requiresInPerson": false
     },
     {
       "weekNum": 8,
-      "unit": "Unit 7.1",
-      "content": "Midterm",
-      "requiresInPerson": true
+      "unit": "Unit 8",
+      "content": "Controlling Application Usage with App-ID",
+      "requiresInPerson": false
     },
     {
       "weekNum": 9,
-      "unit": "Unit 8",
-      "content": "Decryption and Certs",
-      "requiresInPerson": true
+      "unit": "Unit 9",
+      "content": "Blocking Known Threats Using Security Profiles",
+      "requiresInPerson": false
     },
     {
       "weekNum": 10,
-      "unit": "Unit 9",
-      "content": "Wildfire",
+      "unit": "Unit 10",
+      "content": "Blocking Inappropriate Web Traffic with Advanced URL Filtering",
       "requiresInPerson": false
     },
     {
       "weekNum": 11,
-      "unit": "Unit 10",
-      "content": "Intrusion Prevention and User ID",
+      "unit": "Unit 11",
+      "content": "Blocking Unknown Threats with Advanced WildFire",
       "requiresInPerson": false
     },
     {
       "weekNum": 12,
-      "unit": "Unit 11",
-      "content": "Virtual Private Network (VPN)",
+      "unit": "Unit 12",
+      "content": "Controlling Access to Network Resources with User-ID",
       "requiresInPerson": false
     },
     {
       "weekNum": 13,
-      "unit": "Unit 12",
-      "content": "VPNs Continued",
+      "unit": "Unit 13",
+      "content": "Using Decryption to Block Threats in Encrypted Traffic",
       "requiresInPerson": false
     },
     {
@@ -98,19 +98,19 @@
     },
     {
       "weekNum": 14,
-      "unit": "Unit 13",
-      "content": "Logging and Monitoring",
+      "unit": "Unit 14",
+      "content": "Locating Valuable Information Using Logs and Reports",
       "requiresInPerson": false
     },
     {
       "weekNum": 15,
-      "unit": "Unit 14",
-      "content": "Final - Interview",
-      "requiresInPerson": false
+      "unit": "Final",
+      "content": "Final Interview / Wrap-up",
+      "requiresInPerson": true
     },
     {
       "weekNum": 16,
-      "unit": "Unit 14.1",
+      "unit": "Finals",
       "content": "Finals Week",
       "requiresInPerson": false
     }
