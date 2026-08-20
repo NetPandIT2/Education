@@ -6,9 +6,9 @@
     "meetingTime": "Thursday, 13:00 - 14:50"
   },
   "schedule": {
-    "firstWeekStartDate": "8/27/2026",
+    "firstWeekStartDate": "8/23/2026",
     "firstWeekDueDate": "9/2/2026",
-    "lastDueDate": "12/13/2026"
+    "lastDueDate": "12/16/2026"
   },
   "weeks": [
     {
@@ -107,14 +107,14 @@
       "weekNum": 15,
       "unit": "Unit 15",
       "content": "Hyper-V Storage and Networking",
-      "dueDateOverride": "12/10/2026",
+      "dueDateOverride": "12/16/2026",
       "requiresInPerson": false
     },
     {
       "weekNum": 16,
       "unit": "Unit 16",
       "content": "Enterprise Hyper-V and Platform Comparison",
-      "weekStartOverride": "12/10/2026",
+      "weekStartOverride": "12/6/2026",
       "requiresInPerson": false,
       "isLastWeek": true
     }
