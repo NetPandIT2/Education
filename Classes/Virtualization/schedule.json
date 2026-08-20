@@ -1,15 +1,14 @@
-
 {
   "courseInfo": {
     "name": "Virtualization",
-    "term": "Fall 2025",
+    "term": "Fall 2026",
     "location": "Stevens Point Campus - Rm 323",
     "meetingTime": "Thursday, 13:00 - 14:50"
   },
   "schedule": {
-    "firstWeekStartDate": "8/28/2025",
-    "firstWeekDueDate": "9/3/2025",
-    "lastDueDate": "12/11/2025"
+    "firstWeekStartDate": "8/27/2026",
+    "firstWeekDueDate": "9/2/2026",
+    "lastDueDate": "12/13/2026"
   },
   "weeks": [
     {
@@ -69,7 +68,7 @@
     {
       "weekNum": 10,
       "unit": "Unit 10",
-      "content": "Backup Stragegies and Data Protection",
+      "content": "Backup Strategies and Data Protection",
       "requiresInPerson": false
     },
     {
@@ -87,7 +86,7 @@
     {
       "weekNum": 13,
       "unit": "Unit 13",
-      "content": "Hyper-V Fundamentals and Achitecture",
+      "content": "Hyper-V Fundamentals and Architecture",
       "requiresInPerson": false
     },
     {
