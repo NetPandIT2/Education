@@ -87,6 +87,7 @@
       "weekNum": 13,
       "unit": "Unit 13",
       "content": "Hyper-V Fundamentals and Architecture",
+      "dueDateOverride": "12/2/2026",
       "requiresInPerson": false
     },
     {
@@ -106,12 +107,14 @@
       "weekNum": 15,
       "unit": "Unit 15",
       "content": "Hyper-V Storage and Networking",
+      "dueDateOverride": "12/10/2026",
       "requiresInPerson": false
     },
     {
       "weekNum": 16,
       "unit": "Unit 16",
       "content": "Enterprise Hyper-V and Platform Comparison",
+      "weekStartOverride": "12/10/2026",
       "requiresInPerson": false,
       "isLastWeek": true
     }
