@@ -306,11 +306,18 @@
                 }
                 
                 // Format dates based on week type
-                let weekStartFormatted = week.isBreak ? formatDate(currentStartDate) : formatDate(currentStartDate);
+                // A week may carry weekStartOverride / dueDateOverride ("m/d/yyyy") to replace
+                // the computed value for that row only. Overrides are display-only, so the
+                // running +7 cadence at the bottom of this loop is left untouched.
+                let weekStartFormatted = week.weekStartOverride
+                    ? formatDate(parseDate(week.weekStartOverride))
+                    : formatDate(currentStartDate);
                 let dueDateFormatted = '';
                 
                 // For the last week, use the specified lastDueDate if available
-                if (week.isLastWeek && lastDueDate) {
+                if (week.dueDateOverride) {
+                    dueDateFormatted = formatDate(parseDate(week.dueDateOverride));
+                } else if (week.isLastWeek && lastDueDate) {
                     dueDateFormatted = formatDate(lastDueDate);
                 } else if (!week.isBreak) {
                     dueDateFormatted = formatDate(currentDueDate);
