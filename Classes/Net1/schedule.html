@@ -309,8 +309,11 @@
                 let weekStartFormatted = week.isBreak ? formatDate(currentStartDate) : formatDate(currentStartDate);
                 let dueDateFormatted = '';
                 
-                // For the last week, use the specified lastDueDate if available
-                if (week.isLastWeek && lastDueDate) {
+                // An explicit per-week dueDateOverride wins over everything else, then
+                // the last week's lastDueDate, then the running +7 cadence
+                if (week.dueDateOverride) {
+                    dueDateFormatted = formatDate(parseDate(week.dueDateOverride));
+                } else if (week.isLastWeek && lastDueDate) {
                     dueDateFormatted = formatDate(lastDueDate);
                 } else if (!week.isBreak) {
                     dueDateFormatted = formatDate(currentDueDate);
