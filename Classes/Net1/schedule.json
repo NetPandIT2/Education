@@ -14,25 +14,25 @@
     {
       "weekNum": 1,
       "unit": "Unit 1",
-      "content": "Cisco Module 1 & 2 - Exploring the Network / Basic End Device Configurations",
+      "content": "Cisco Module 1&2 - Exploring the Network / Basic End Device Configurations",
       "requiresInPerson": false
     },
     {
       "weekNum": 2,
       "unit": "Unit 2",
-      "content": "Cisco Module 3 - Network Protocols and Models",
+      "content": "Cisco Module 3: Network Protocols and Models",
       "requiresInPerson": false
     },
     {
       "weekNum": 3,
       "unit": "Unit 3",
-      "content": "Cisco Module 4 & 5 - Physical Layers and Number Systems",
+      "content": "Cisco Module 4 & 5 Physical Layer and Number Systems",
       "requiresInPerson": false
     },
     {
       "weekNum": 4,
       "unit": "Unit 4",
-      "content": "Cisco Module 6 & 7 Data Link Layer and Ethernet Switching",
+      "content": "Cisco Module 6&7 Data Link Layer and Ethernet Switching + Exam",
       "requiresInPerson": false
     },
     {
@@ -44,62 +44,62 @@
     {
       "weekNum": 6,
       "unit": "Unit 6",
-      "content": "Cisco Modules 9 & 10 Address Resolution and Basic Router Configuration",
+      "content": "Cisco Modules 9 & 10 Address Resolution and Basic Router Configuration + Exam",
       "requiresInPerson": false
     },
     {
       "weekNum": 7,
-      "unit": "Unit 7",
-      "content": "Cisco Module 11 IPv4 Addresssing",
+      "unit": "",
+      "content": "Midterm Exam - In-Class/Remote Cisco Module 1-8 & Packet Tracer + 75 question Exam",
       "requiresInPerson": false
     },
     {
       "weekNum": 8,
-      "unit": "Unit 8",
-      "content": "Cisco Module 12 IPv6 Addresssing",
+      "unit": "Unit 7",
+      "content": "Cisco Module 11 - IPv4 Addressing",
       "requiresInPerson": false
     },
     {
       "weekNum": 9,
-      "unit": "",
-      "content": "Midterm",
+      "unit": "Unit 8",
+      "content": "Cisco Module 12 - IPv6",
       "requiresInPerson": false
     },
     {
       "weekNum": 10,
       "unit": "Unit 9",
-      "content": "Cisco Module 13 ICMP - Internet Control Message Protocol",
+      "content": "Cisco Module 13 - ICMP - Internet Control Message Protocol + Exam",
       "requiresInPerson": false
     },
     {
       "weekNum": 11,
       "unit": "Unit 10",
-      "content": "Cisco Module 14 Transport Layer",
+      "content": "Cisco Module 14 - Transport Layer",
       "requiresInPerson": false
     },
     {
       "weekNum": 12,
       "unit": "Unit 11",
-      "content": "Cisco Module 15 Application Layer",
+      "content": "Cisco Module 15 - Application Layer + Exam",
       "requiresInPerson": false
     },
     {
       "weekNum": 13,
       "unit": "Unit 12",
-      "content": "Cisco Module 16 Network Security Fundamentals",
+      "content": "Cisco Module 16 - Network Security Fundamentals",
       "requiresInPerson": false
     },
     {
       "weekNum": null,
       "unit": null,
-      "content": "Fall Break",
+      "content": "Fall Break / Holiday",
       "isBreak": true,
       "skipWeek": true
     },
     {
       "weekNum": 14,
       "unit": "Unit 13",
-      "content": "Cisco Module 17 Building a Small Network",
+      "content": "Building a Small Network and Exam",
       "requiresInPerson": false
     },
     {
@@ -111,7 +111,7 @@
     {
       "weekNum": 16,
       "unit": "",
-      "content": "Final Exam",
+      "content": "Final Exam Remote",
       "requiresInPerson": false,
       "isLastWeek": true
     }
