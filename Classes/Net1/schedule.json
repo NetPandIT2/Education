@@ -87,7 +87,8 @@
       "weekNum": 13,
       "unit": "Unit 12",
       "content": "Cisco Module 16 - Network Security Fundamentals",
-      "requiresInPerson": false
+      "requiresInPerson": false,
+      "dueDateOverride": "12/1/2026"
     },
     {
       "weekNum": null,
