@@ -1,14 +1,14 @@
 {
   "courseInfo": {
     "name": "Networking I",
-    "term": "Fall 2025",
+    "term": "Fall 2026",
     "location": "Wisconsin Rapids Campus - Rm T111",
     "meetingTime": "Wednesday, 09:00 - 11:50"
   },
   "schedule": {
-    "firstWeekStartDate": "8/27/2025",
-    "firstWeekDueDate": "9/1/2025",
-    "lastDueDate": "12/16/2025"
+    "firstWeekStartDate": "8/26/2026",
+    "firstWeekDueDate": "9/1/2026",
+    "lastDueDate": "12/16/2026"
   },
   "weeks": [
     {
